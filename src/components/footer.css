@@ -1,0 +1,115 @@
+.containerFooter {
+   display: flex;
+   flex-direction: column;
+   height: 250px;
+   margin: 0 auto;
+   background-color: #7f7e7ea9;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+.containerFooter .heroFooter { 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+
+}
+.containerFooter .heroFooter .tudo{
+   max-width: 250px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: flex-start;
+}
+
+.containerFooter .heroFooter .tudo .content02 {
+   align-items: start;
+   justify-content: flex-start;
+}
+
+.containerFooter .heroFooter .logoImg img{
+   margin: 1rem;
+   width: 100px;
+   height: 100px;
+}
+
+.containerFooter .heroFooter p { 
+   color: #ffff;
+}
+
+.containerFooter .heroFooter .tudo a { 
+   margin-top: 14px;
+   text-decoration: none;
+   font-size: 8px;
+}
+
+.containerFooter .heroFooter .tudo a:hover { 
+   color:rgba(255, 255, 255, 0.5)
+   
+}
+
+.containerFooter .heroFooter .content01 { 
+   width: 200px;
+}
+
+.containerFooter .heroFooter div svg { 
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+
+.containerFooter .heroFooter div { 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: #FFFF;
+   margin-left: 1rem;
+}
+
+.containerFooter .heroFooter div a { 
+   text-decoration: none;
+   color: #FFFF;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 0.5rem;
+   font-size: 0.7rem;
+}
+
+.containerFooter .heroFooter div a h2{ 
+   margin-left: 1rem;
+}
+ 
+.containerFooter .heroFooter div a h2:hover{ 
+   color: rgba(255, 255, 255, 0.589);
+
+}
+
+@media screen and (min-width: 700px) {
+   .containerFooter .heroFooter .tudo {
+      max-width: 1200px;
+
+   }
+
+   .containerFooter .heroFooter .tudo{
+      max-width: 900px;
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: flex-start;
+   }
+
+   .containerFooter .heroFooter .tudo a { 
+      font-size: 12px;
+   }
+
+   .containerFooter .heroFooter .logoImg img{
+      width: 200px;
+      height: 200px;
+   }
+}
